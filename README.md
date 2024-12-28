@@ -13,6 +13,7 @@ The goal is to implement a system that allows:
 This project serves as a practical way to apply advanced C# programming techniques.
 
 ---
+example
 
 ## Features
 1. **Student Management:**
