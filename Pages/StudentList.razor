@@ -1,0 +1,20 @@
+@using StudentManagementSystem.Services
+@inject IStudentService StudentService
+
+<h3>Student List</h3>
+<ul>
+    @foreach (var student in students)
+    {
+        <li>@student.Name</li>
+    }
+</ul>
+
+@code {
+    private List<Student> students;
+
+    // Asynchronously fetch students when component initializes
+    protected override async Task OnInitializedAsync()
+    {
+        students = (await StudentService.GetAllStudentsAsync()).ToList();
+    }
+}

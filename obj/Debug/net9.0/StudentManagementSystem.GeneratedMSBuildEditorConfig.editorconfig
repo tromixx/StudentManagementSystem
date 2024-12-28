@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/tomasvenere/Desktop/StudentManagementSystem/StudentManagementSystem/Pages/AddStudent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkU3R1ZGVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/tomasvenere/Desktop/StudentManagementSystem/StudentManagementSystem/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/tomasvenere/Desktop/StudentManagementSystem/StudentManagementSystem/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomasvenere/Desktop/StudentManagementSystem/StudentManagementSystem/Pages/StudentList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGVudExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tomasvenere/Desktop/StudentManagementSystem/StudentManagementSystem/Shared/SurveyPrompt.razor]

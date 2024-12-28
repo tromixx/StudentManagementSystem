@@ -1,0 +1,25 @@
+@using StudentManagementSystem.Services
+@inject IStudentService StudentService
+
+<h3>Add Student</h3>
+<form>
+    <div>
+        <label for="name">Name:</label>
+        <input id="name" @bind="studentName" />
+    </div>
+    <button @onclick="HandleAddStudent">Add</button>
+</form>
+
+@code {
+    private string studentName;
+
+    private async Task HandleAddStudent()
+    {
+        if (!string.IsNullOrWhiteSpace(studentName))
+        {
+            var newStudent = new Student { Name = studentName };
+            await StudentService.AddStudent(newStudent);  // Use await for async method
+            studentName = string.Empty; // Clear the input field after adding
+        }
+    }
+}
